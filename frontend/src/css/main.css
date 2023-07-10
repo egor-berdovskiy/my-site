@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Consolas';
+    src: url('../fonts/consolas.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Consolas';
+    background-color: #120909;
+
+    margin: 0;
+    padding: 0;
+
+    color: white;
+}
+
+#navigation {
+    padding: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+
+    transition: letter-spacing 0.1s linear;
+}
+
+#navigation-table {
+    margin-left: auto;
+}
+
+#navigation-table td {
+    width: 165px;
+    text-align: right;
+}
+
+#navigation a:hover {
+    letter-spacing: 2px;
+}
+
+#welcome-text {
+    font-size: 25px;
+    width: 660px;
+
+    height: 1000px;
+}
+
+.telegram-link {
+    text-decoration: none;
+    color: #ff2a2a;
+}
+
+.telegram-link:hover {
+    text-decoration: underline;
+}
