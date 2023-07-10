@@ -31,7 +31,7 @@ body {
 }
 
 #navigation-table td {
-    width: 165px;
+    width: 200px;
     text-align: right;
 }
 
@@ -43,14 +43,82 @@ body {
     font-size: 25px;
     width: 660px;
 
+    margin: auto;
+    padding-top: 20%;
+}
+
+#welcome-section {
     height: 1000px;
 }
 
-.telegram-link {
+.link {
     text-decoration: none;
     color: #ff2a2a;
 }
 
-.telegram-link:hover {
+.link:hover {
     text-decoration: underline;
 }
+
+.text-center {
+    text-align: center;
+}
+
+
+#work {
+    
+}
+
+footer {
+    text-align: center;
+    
+    height: 100px;
+    background-color: rgb(20, 20, 20);
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #120909;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #080404;
+    border-radius: 15px;
+}
+
+/* Projects */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 350px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #1D0D0D;
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.project-card-example {
+    font-size: 20px;
+}
+
+.project-card-title {
+    font-size: 25px;
+}
+
+.project-card-description {
+    text-align: justify;
+    width: 230px;
+    margin: 20px;
+}
+
+.category-title {
+    
+}
+
+/* Other */

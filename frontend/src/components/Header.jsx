@@ -8,7 +8,7 @@ class Header extends React.Component {
                 <div id='navigation'>
                     <table id='navigation-table'>
                         <td><a href='#work'>.works()</a></td>
-                        <td><a href='#contact'>.contact()</a></td>
+                        <td><a href='#contact'>.contacts()</a></td>
                     </table>
                 </div>
             </header>
